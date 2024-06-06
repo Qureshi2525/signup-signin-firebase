@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+  <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+
+  
+    <div class="container">
+        <div class="chat-container">
+            <div class="chat-window">
+              <div id="chat-messages" class="chat-messages">
+                <div class="avatar" id="aname">
+                  <img id="avatar" decoding="async" src="./DSC_0601.jpg" alt="Avatar">
+                  <div>
+                    <h4>Yasir Rasheed<br>cco-118488</h4>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <div class="chat-input">
+                <input type="text" id="message-input" placeholder="Type a message...">
+                <button id="send-button">Send</button>
+              </div>
+            </div>
+          </div>
+
+
+        <h1>Welcome</h1>
+        <p id="welcome-message"></p>
+        <button id="logout-button">Logout</button>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="firebase-config.js"></script>
+    <script src="auth.js"></script>
+  <script src="wats.js"></script>
+
+</body>
+</html>
